@@ -25,6 +25,16 @@ body {
   scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font);
+  text-transform: uppercase;
+}
+
 .navbar {
   max-width: 100vw;
   margin-top: 40px;
@@ -176,10 +186,13 @@ svg:hover {
 .row input[type="text"],
 .row input[type="email"] {
   line-height: 3;
+  padding: 5px;
+  padding: 0 10px;
 }
 
 .row textarea {
   resize: none;
+  padding: 10px;
 }
 
 .row input,
