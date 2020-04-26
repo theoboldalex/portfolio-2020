@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+{{ partial "header.html" . }}
+
+{{ partial "nav.html" . }}
+
+
+
+<div class="container">
+    <div class="grid">
+        {{ range .Pages }}
+
+        <div class="card">
+            <h3 >{{ .Title }}</h3>
+            <p class="blurb">
+                <!-- Put blurb in here once generated in frontmatter -->
+                {{ .Params.blurb }}
+            </p>
+        </div>
+
+        {{ end }}  
+    </div>     
+</div>
+
+
+
+{{ partial "footer" . }}
+
+{{ end }}

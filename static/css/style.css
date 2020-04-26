@@ -33,6 +33,7 @@ h5,
 h6 {
   font-family: var(--font);
   text-transform: uppercase;
+  color: var(--text);
 }
 
 .navbar {
@@ -228,4 +229,27 @@ svg:hover {
 
 .hidden-form {
   display: none;
+}
+
+/* WORK SECTION */
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: 5% 5%;
+}
+
+.grid .card {
+  border: 1px solid rgba(17, 17, 17, 0.4);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 5%;
+}
+
+.blurb {
+  font-family: var(--font);
+  color: var(--text);
+  text-align: justify;
 }
