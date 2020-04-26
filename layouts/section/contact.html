@@ -3,7 +3,37 @@
 
 {{ partial "nav.html" . }}
 
-{{ .Content }}
+<div class="container">
+    <form class="contact-form" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+            <p class="hidden-form">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+            <div class="row">
+                <label for="name">Your Name: 
+                    <input type="text" name="name" required />
+                </label> 
+            </div>
+              
+            <div class="row">
+                <label for="email">Your Email: 
+                    <input type="email" name="email" required />
+                </label>
+            </div>
+           
+      
+            <div class="row">
+                <label for="message">Message: 
+                    <textarea name="message" required></textarea>
+                </label>
+            </div>
+            
+            <div class="row">
+                <button type="submit">Send</button>
+            </div>
+            
+       
+    </form>
+</div>
 
 {{ partial "footer" . }}
 
