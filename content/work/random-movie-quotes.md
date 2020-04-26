@@ -2,5 +2,8 @@
 title: "Random Movie Quotes"
 date: 2020-04-26T13:03:52+01:00
 draft: false
-blurb: "This application, built using React, filters and maps JSON data to select and display a movie quote and the film it is taken from at random upon clicking a DOM element."
+blurb: "A random movie quote generator working with a third party API."
+stack: ["React", "JSX", "ES6", "CSS"]
+liveSite: ""
+github: "https://github.com/theoboldalex/random-quotes"
 ---
