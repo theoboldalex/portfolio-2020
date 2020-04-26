@@ -1,23 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- FONT AWESOME -->
-    <script
-      src="https://kit.fontawesome.com/e9d93636cd.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/style.css">
-    <title>{{ .Title }}</title>
-</head>
-<body>
+{{ partial "header" . }}
     <main>
         {{ block "main" . }}
 
         {{ end }}
     </main>
-
-    <script src="js/main.js"></script>
-</body>
-</html>
+{{ partial "footer" . }}
