@@ -34,6 +34,7 @@ h6 {
   font-family: var(--font);
   text-transform: uppercase;
   color: var(--text);
+  word-spacing: 5px;
 }
 
 p,
@@ -299,4 +300,12 @@ svg:hover {
   .grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* CONTENT */
+.content-wrapper {
+  width: 80%;
+  margin: 0 10%;
+  padding: 0 5px;
+  line-height: 2;
 }
