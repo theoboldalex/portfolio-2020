@@ -17,3 +17,5 @@ The application is implemented using Vue Js and Google's Firebase and JavaScript
 This project is very much a work in progress and I am currently developing an iOS application to partner with the Firebase backend. This will allow users to recieve notifications on the go based on their location in relation to any threat that may arise.
 
 To learn more, please have a look at the [live site](https://osint-src.com/#/) or check out the demo video below. For more information or if you would like to contribute to this project, feel free to [reach out to me]({{< ref "/contact" >}})
+
+{{< youtube xcDWxU9ekGo >}}
