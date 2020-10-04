@@ -1,11 +1,11 @@
 ---
-title: "Random Movie Quotes"
+title: 'Random Movie Quotes'
 date: 2020-04-26T13:03:52+01:00
-draft: false
-blurb: "A movie quote generator that displays a classic movie quote at random."
-stack: ["React", "JSX", "ES6", "CSS"]
-liveSite: "https://feeling-lucky-punk.netlify.app/"
-github: "https://github.com/theoboldalex/random-quotes"
+draft: true
+blurb: 'A movie quote generator that displays a classic movie quote at random.'
+stack: ['React', 'JSX', 'ES6', 'CSS']
+liveSite: 'https://feeling-lucky-punk.netlify.app/'
+github: 'https://github.com/theoboldalex/random-quotes'
 ---
 
 ## _A movie quote generator that displays a classic movie quote at random._
