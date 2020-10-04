@@ -7,3 +7,5 @@ stack: ['Node', 'Express', 'WebRTC', 'PeerJS']
 liveSite: 'https://encord-cast.ew.r.appspot.com/'
 github: 'https://github.com/theoboldalex/encord'
 ---
+
+## _Encord is a video chat and screen sharing application based on [condord](https://blog.usejournal.com/concord-how-i-built-a-screen-sharing-application-in-two-weeks-bef3f6a56ec4)._
