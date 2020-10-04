@@ -1,20 +1,32 @@
 <article class="container col-2">
-    <div id="about">
-        <p class="text column">
-            Hi! I'm Alex; A web developer with a passion for open source technology and building elegant and innovative products.
-            I also write about JavaScript on my <a href="https://javascriptjunkies.com" target="_blank" rel="noopener">blog</a> and am an active member of the <a href="https://www.100daysofcode.com/about/" rel="noopener">#100DaysOfCode</a> community. 
-            Grab a copy of my <a href="img/alex_theobold_cv_2020.pdf" target="_blank">CV</a> or connect with me on social media through the links below.
-        </p>
-        <div class="social-menu">
-            <a href="https://github.com/theoboldalex" target="_blank" aria-label="github" rel="noopener">
-                {{ readFile "static/img/github.svg" | safeHTML }}
-            </a>
-            <a href="https://www.linkedin.com/in/theoboldalex/" target="_blank" aria-label="linkedin" rel="noopener">
-                {{ readFile "static/img/linkedin.svg" | safeHTML }}
-            </a>
-        </div>
+  <div id="about">
+    <p class="text column">
+      Hi! I'm Alex; A web developer with a passion for open source technology
+      and building elegant and innovative products. I also write about
+      JavaScript on my
+      <a href="https://javascriptjunkies.com" target="_blank" rel="noopener"
+        >blog</a
+      >
+      and am an active member of the
+      <a href="https://www.100daysofcode.com/about/" rel="noopener"
+        >#100DaysOfCode</a
+      >
+      community. Grab a copy of my
+      <a href="img/alex_theobold_cv_2020.pdf" target="_blank">CV</a> or connect
+      with me on Github through the link below.
+    </p>
+    <div class="social-menu">
+      <a
+        href="https://github.com/theoboldalex"
+        target="_blank"
+        aria-label="github"
+        rel="noopener"
+      >
+        {{ readFile "static/img/github.svg" | safeHTML }}
+      </a>
     </div>
-    <div id="headshot" class="column">
-        <img id="profile" src="img/profile.jpg" alt="my face" width="70%">
-    </div>
+  </div>
+  <div id="headshot" class="column">
+    <img id="profile" src="img/profile.jpg" alt="my face" width="70%" />
+  </div>
 </article>
