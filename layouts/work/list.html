@@ -1,45 +1,33 @@
-{{ define "main" }}
-
-{{ partial "header.html" . }}
-
-{{ partial "nav.html" . }}
-
-
+{{ define "main" }} {{ partial "header.html" . }} {{ partial "nav.html" . }}
 
 <div class="container">
-    <div class="grid">
-        {{ range .Pages }}
+  <div class="grid">
+    {{ range .Pages }}
 
-        <div class="card">
-            <h3>{{ .Title }}</h3>
-            <p class="blurb">
-                <!-- Put blurb in here once generated in frontmatter -->
-                {{ .Params.blurb }}
-            </p>
-            <ul class="stack">
-                {{ range .Params.stack }}
-                    <li class="stack-item">{{ . }}</li>
-                {{ end }}
-            </ul> 
-            <div class="btn-group">
-                <a class="btn" href={{ .RelPermalink }}>
+    <div class="card">
+      <h3>{{ .Title }}</h3>
+      <p class="blurb">
+        <!-- Put blurb in here once generated in frontmatter -->
+        {{ .Params.blurb }}
+      </p>
+      <ul class="stack">
+        {{ range .Params.stack }}
+        <li class="stack-item">{{ . }}</li>
+        {{ end }}
+      </ul>
+      <div class="btn-group">
+        <!-- <a class="btn" href={{ .RelPermalink }}>
                     More Info
-                </a>
-                <a class="btn" href={{ .Params.liveSite }} target="_blank">
-                    Live Site
-                </a>
-                <a class="btn" href={{ .Params.github }} target="_blank">
-                    Code
-                </a>
-            </div>
-        </div>
+                </a> -->
+        <a class="btn" href="{{" .Params.liveSite }} target="_blank">
+          Live Site
+        </a>
+        <a class="btn" href="{{" .Params.github }} target="_blank"> Code </a>
+      </div>
+    </div>
 
-        {{ end }}  
-    </div>     
+    {{ end }}
+  </div>
 </div>
 
-
-
-{{ partial "footer" . }}
-
-{{ end }}
+{{ partial "footer" . }} {{ end }}
