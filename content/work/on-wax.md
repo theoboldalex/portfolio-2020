@@ -1,7 +1,7 @@
 ---
 title: "On Wax"
 date: 2021-03-19T23:42:04Z
-draft: true
+draft:  false
 blurb: "A social network for record collectors."
 stack: ["Vue", "Laravel", "MySQL", "Tailwind CSS"]
 liveSite: ""
